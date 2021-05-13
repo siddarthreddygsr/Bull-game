@@ -43,13 +43,16 @@ struct playervsplayer: View {
                 Button(action: {
                    
                 }, label: {
-                    Text("Next")
-                        .frame(width: 150, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .background(Color.blue)
-                        .cornerRadius(13)
+                    NavigationLink(
+                        destination: construction(),
+                        label: {
+                                    Text("Next")
+                                        .frame(width: 150, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                        .font(.headline)
+                                        .foregroundColor(.white)
+                                        .background(Color.blue)
+                                        .cornerRadius(13)
+                        })
                 })
             }
         }

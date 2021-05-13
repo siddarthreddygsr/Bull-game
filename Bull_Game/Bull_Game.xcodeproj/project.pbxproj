@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1C878E264CE0A400939715 /* construction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C878D264CE0A400939715 /* construction.swift */; };
 		DD90D7A1264C073B006EEC27 /* playervsplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90D7A0264C073B006EEC27 /* playervsplayer.swift */; };
 		DDC9D817264A700F00E1DF6C /* Bull_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9D816264A700F00E1DF6C /* Bull_GameApp.swift */; };
 		DDC9D819264A700F00E1DF6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9D818264A700F00E1DF6C /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1C878D264CE0A400939715 /* construction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construction.swift; sourceTree = "<group>"; };
 		DD90D7A0264C073B006EEC27 /* playervsplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playervsplayer.swift; sourceTree = "<group>"; };
 		DDC9D813264A700F00E1DF6C /* Bull_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bull_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC9D816264A700F00E1DF6C /* Bull_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bull_GameApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				DDC9D816264A700F00E1DF6C /* Bull_GameApp.swift */,
 				DDC9D818264A700F00E1DF6C /* ContentView.swift */,
 				DDC9D82A264ABDE000E1DF6C /* playervscpu.swift */,
+				DD1C878D264CE0A400939715 /* construction.swift */,
 				DD90D7A0264C073B006EEC27 /* playervsplayer.swift */,
 				DDC9D81A264A701100E1DF6C /* Assets.xcassets */,
 				DDC9D81F264A701100E1DF6C /* Info.plist */,
@@ -148,6 +151,7 @@
 				DDC9D817264A700F00E1DF6C /* Bull_GameApp.swift in Sources */,
 				DD90D7A1264C073B006EEC27 /* playervsplayer.swift in Sources */,
 				DDC9D82B264ABDE000E1DF6C /* playervscpu.swift in Sources */,
+				DD1C878E264CE0A400939715 /* construction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
