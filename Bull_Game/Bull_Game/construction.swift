@@ -16,18 +16,19 @@ struct construction: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    NavigationLink(
-                        destination: playervscpu(),
-                        label: {
-                            Text("Try playing with CPU")
-                                .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .background(Color.blue)
-                                .cornerRadius(13)
-                        })
-                })
+//                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+//                    NavigationLink(
+//                        destination: playervscpu(),
+//                        label: {
+//                            Text("Try playing with CPU")
+//                                .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                                .font(.headline)
+//                                .foregroundColor(.white)
+//                                .background(Color.blue)
+//                                .cornerRadius(13)
+//                        })
+//                })
+                Text("This page is under construction")
                 
             }
         }
