@@ -12,10 +12,8 @@ struct playervsplayer: View {
     @ObservedObject var input2 = NumbersOnly()
     @State var status1 = "Enter a 3 digit num"
     var body: some View {
-        NavigationView
-        {
-            VStack
-            {
+        NavigationView{
+            VStack{
                 Text("Player vs Player")
                     .font(.largeTitle)
                     .bold()
